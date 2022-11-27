@@ -7,18 +7,6 @@ import random
 import string
 import requests
 #<==========Imports Ending==========>
-try:
-    kill = requests.get('https://pastebin.com/raw/CfcS71MC').text
-    if kill == "0X72PROTECTOR":
-        pass
-    else:
-        print('[0X72PROTECTOR] Protector is off, try again later.')
-        time.sleep(2)
-        os._exit(0) 
-except:
-    print('[0X72PROTECTOR] Something went wrong, try again later.')
-    time.sleep(2)
-    os._exit(0)
 os.system('title 0X72PROTECTOR by 0x72#0001')
 #<==========Path Select Starting==========>
 try:
